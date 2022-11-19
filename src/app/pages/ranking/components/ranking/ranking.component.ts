@@ -9,7 +9,9 @@ import { RankingPlayer } from '../../interfaces/ranking-player.interface';
 })
 export class RankingComponent implements OnInit {
 
-  datasource: RankingPlayer[] = [
+  datasource: RankingPlayer[] = []
+  /*
+  [
     {
       "points": 0,
       "player": {
@@ -131,9 +133,10 @@ export class RankingComponent implements OnInit {
       }
     }
   ]
+  */
 
   constructor(service: RankingService) {
-    //service.getRanking().subscribe(data => this.datasource = data);
+    service.getRanking().subscribe(data => this.datasource = data);
   }
 
   ngOnInit(): void {
