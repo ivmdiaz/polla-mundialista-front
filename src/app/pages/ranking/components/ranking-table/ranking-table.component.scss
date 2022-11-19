@@ -1,0 +1,47 @@
+.container {
+  margin-top: 0.5rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.position {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+
+  img {
+    height: 80px;
+  }
+}
+
+.player {
+  .image {
+    img {
+      border-radius: 50%;
+      height: 100px;
+    }
+  }
+  text-align: center;
+}
+
+.points {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.mat-card-content {
+  background-color: var(--color-primary);
+}
+
+.mat-card {
+  padding: 0;
+}
+
+.mat-card-content {
+  padding: 1em;
+}

@@ -1,6 +1,8 @@
 import { MaterialModule } from './../material/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const MODULES = [
   CommonModule,
@@ -8,8 +10,11 @@ const MODULES = [
 ]
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HeaderComponent,
+    FooterComponent
+  ],
   imports: MODULES,
-  exports: MODULES
+  exports: [MODULES, HeaderComponent, FooterComponent]
 })
 export class CommonsModule { }
