@@ -133,7 +133,7 @@ export class RankingComponent implements OnInit {
   ]
 
   constructor(service: RankingService) {
-    service.getRanking().subscribe(data => this.datasource = data);
+    //service.getRanking().subscribe(data => this.datasource = data);
   }
 
   ngOnInit(): void {

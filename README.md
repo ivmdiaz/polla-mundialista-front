@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploy ghpages
+
+Run
+```
+ng build --configuration production --base-href "https://ivmdiaz.github.io/polla-mundialista-front/"
+```
+```
+npx angular-cli-ghpages --dir=dist/polla-mundialista-front
+```
+When execution is finished, go to [Web application](https://ivmdiaz.github.io/polla-mundialista-front/)

@@ -9,12 +9,15 @@
 }
 
 .position {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
-
   img {
     height: 80px;
+  }
+
+  p {
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
   }
 }
 
