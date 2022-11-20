@@ -1,11 +1,10 @@
 <div class="datepicker-selector">
-
+  <button mat-raised-button color="primary" style="margin-bottom: 1em;" (click)="showAll()">Mostrar todos</button>
   <mat-form-field color="primary" appearance="fill">
     <input matInput [matDatepicker]="picker1" (dateChange)="selectedDate($event)" [min]="minDate" [max]="maxDate">
     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
     <mat-datepicker #picker1 color="primary"></mat-datepicker>
   </mat-form-field>
-
 </div>
 
 <div *ngFor="let item of datasource_visible">

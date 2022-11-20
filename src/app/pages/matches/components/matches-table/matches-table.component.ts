@@ -36,7 +36,10 @@ export class MatchesTableComponent implements OnInit {
         return compareDate1 == compareDate2;
       })
     }
+  }
 
+  showAll() {
+    this.datasource_visible = this.datasource;
   }
 }
 
