@@ -4,8 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/ranking',
+    redirectTo: 'homepage',
     pathMatch: 'full'
+  },
+  {
+    path: 'homepage',
+    loadChildren: () => import('./pages/homepage/homepage.module').then(m => m.HomepageModule)
   },
   {
     path: 'ranking',

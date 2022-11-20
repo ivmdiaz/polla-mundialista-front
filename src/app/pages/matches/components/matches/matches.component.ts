@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Match } from '../../interfaces/match.interface';
+import { MatchesService } from '../../services/matches.service';
 
 @Component({
   selector: 'app-matches',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatchesComponent implements OnInit {
 
-  constructor() { }
+  datasource: Match[] = [];
+
+  constructor(private service: MatchesService) {
+    this.service.getMatches().subscribe(data => this.datasource = data);
+  }
 
   ngOnInit(): void {
   }

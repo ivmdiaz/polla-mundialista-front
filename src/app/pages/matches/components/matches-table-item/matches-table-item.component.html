@@ -1,0 +1,25 @@
+<div class="container" *ngIf="item">
+
+  <div class="title">
+    <p>{{item.date | date: 'short' : '-5' }}</p>
+  </div>
+
+  <div class="content">
+
+    <div class="team">
+      <img src="assets/img/teams/F{{item.team_1.id}}.png">
+    </div>
+
+    <div class="versus">
+      <div class="goals">{{item.result_team_1}}</div>
+      <div class="dash"></div>
+      <div class="goals">{{item.result_team_2}}</div>
+    </div>
+
+    <div class="team">
+      <img src="assets/img/teams/F{{item.team_2.id}}.png">
+    </div>
+
+  </div>
+
+</div>

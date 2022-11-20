@@ -2,41 +2,6 @@
   margin-top: 0.5rem;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.position {
-  img {
-    height: 80px;
-  }
-
-  p {
-    width: 80px;
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-  }
-}
-
-.player {
-  .image {
-    img {
-      border-radius: 50%;
-      height: 100px;
-    }
-  }
-  text-align: center;
-}
-
-.points {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
-}
-
 .mat-card-content {
   background-color: var(--color-primary);
 }

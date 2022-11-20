@@ -1,0 +1,13 @@
+<div class="datepicker-selector">
+
+  <mat-form-field color="primary" appearance="fill">
+    <input matInput [matDatepicker]="picker1" (dateChange)="selectedDate($event)" [min]="minDate" [max]="maxDate">
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1 color="primary"></mat-datepicker>
+  </mat-form-field>
+
+</div>
+
+<div *ngFor="let item of datasource_visible">
+  <app-matches-table-item [item]="item"></app-matches-table-item>
+</div>
