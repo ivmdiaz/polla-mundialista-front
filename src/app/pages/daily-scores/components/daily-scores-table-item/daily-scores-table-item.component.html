@@ -1,0 +1,34 @@
+<div class="container" *ngIf="item">
+
+  <div class="title">
+    <p>{{item.date | date: 'short' : '-5' }} - {{item.group }}</p>
+  </div>
+
+  <mat-accordion>
+    <mat-expansion-panel class="panel">
+
+      <mat-expansion-panel-header class="header">
+
+        <div class="team">
+          <img src="assets/img/teams/F{{item.team_1.id}}.png">
+        </div>
+
+        <div class="score">
+          <div class="goals">{{item.result_team_1}}</div>
+          <div class="dash"></div>
+          <div class="goals">{{item.result_team_2}}</div>
+        </div>
+
+        <div class="team">
+          <img src="assets/img/teams/F{{item.team_2.id}}.png">
+        </div>
+      </mat-expansion-panel-header>
+
+      <div class="content">
+        <app-player-scores-table [datasource]="item"></app-player-scores-table>
+      </div>
+
+    </mat-expansion-panel>
+  </mat-accordion>
+
+</div>

@@ -1,3 +1,4 @@
+import { DailyScoresModule } from './../daily-scores/daily-scores.module';
 import { MatchesModule } from './../matches/matches.module';
 import { RankingModule } from './../ranking/ranking.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { CommonsModule } from 'src/app/shared/commons/commons.module';
     CommonsModule,
     HomepageRoutingModule,
     RankingModule,
-    MatchesModule
+    MatchesModule,
+    DailyScoresModule
   ]
 })
 export class HomepageModule { }

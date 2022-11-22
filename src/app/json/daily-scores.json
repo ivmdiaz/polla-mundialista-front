@@ -1,0 +1,612 @@
+{
+  "data": [
+    {
+      "id": 5,
+      "group": "GRUPO C",
+      "date": "2022-11-22T10:00:00.000Z",
+      "team_1": {
+        "id": 3,
+        "name": "ARGENTINA"
+      },
+      "team_2": {
+        "id": 2,
+        "name": "ARABIA SAUDITA"
+      },
+      "result_team_1": 1,
+      "result_team_2": 2,
+      "scores": [
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Juan Carlos",
+            "id": 1,
+            "image": "1JC"
+          }
+        },
+        {
+          "score_team_1": "4",
+          "score_team_2": "0",
+          "player": {
+            "name": "Nelson Alfonso",
+            "id": 2,
+            "image": "2NA"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Luz Marina",
+            "id": 3,
+            "image": "3LM"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Isabel Cristina",
+            "id": 4,
+            "image": "4IC"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Sandra Milena",
+            "id": 5,
+            "image": "5SM"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Luis Fernando",
+            "id": 6,
+            "image": "6LF"
+          }
+        },
+        {
+          "score_team_1": "4",
+          "score_team_2": "0",
+          "player": {
+            "name": "Diego Alejandro",
+            "id": 7,
+            "image": "7DA"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Natalia",
+            "id": 8,
+            "image": "8N"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Ivan Mauricio",
+            "id": 9,
+            "image": "9IM"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Geraldine",
+            "id": 10,
+            "image": "10G"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Karol Nicol",
+            "id": 11,
+            "image": "11KN"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Juan David",
+            "id": 12,
+            "image": "12JD"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Andrés Felipe",
+            "id": 13,
+            "image": "13AF"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Dilan Santiago",
+            "id": 14,
+            "image": "14DS"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "1",
+          "player": {
+            "name": "Mariana",
+            "id": 15,
+            "image": "15M"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "group": "GRUPO D",
+      "date": "2022-11-22T13:00:00.000Z",
+      "team_1": {
+        "id": 12,
+        "name": "DINAMARCA"
+      },
+      "team_2": {
+        "id": 31,
+        "name": "TUNEZ"
+      },
+      "result_team_1": "",
+      "result_team_2": "",
+      "scores": [
+        {
+          "score_team_1": "0",
+          "score_team_2": "0",
+          "player": {
+            "name": "Juan Carlos",
+            "id": 1,
+            "image": "1JC"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Nelson Alfonso",
+            "id": 2,
+            "image": "2NA"
+          }
+        },
+        {
+          "score_team_1": "",
+          "score_team_2": "",
+          "player": {
+            "name": "Luz Marina",
+            "id": 3,
+            "image": "3LM"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Isabel Cristina",
+            "id": 4,
+            "image": "4IC"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Sandra Milena",
+            "id": 5,
+            "image": "5SM"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Luis Fernando",
+            "id": 6,
+            "image": "6LF"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Diego Alejandro",
+            "id": 7,
+            "image": "7DA"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Natalia",
+            "id": 8,
+            "image": "8N"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Ivan Mauricio",
+            "id": 9,
+            "image": "9IM"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Geraldine",
+            "id": 10,
+            "image": "10G"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "2",
+          "player": {
+            "name": "Karol Nicol",
+            "id": 11,
+            "image": "11KN"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "2",
+          "player": {
+            "name": "Juan David",
+            "id": 12,
+            "image": "12JD"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Andrés Felipe",
+            "id": 13,
+            "image": "13AF"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "3",
+          "player": {
+            "name": "Dilan Santiago",
+            "id": 14,
+            "image": "14DS"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Mariana",
+            "id": 15,
+            "image": "15M"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "group": "GRUPO C",
+      "date": "2022-11-22T16:00:00.000Z",
+      "team_1": {
+        "id": 23,
+        "name": "MEXICO"
+      },
+      "team_2": {
+        "id": 25,
+        "name": "POLONIA"
+      },
+      "result_team_1": "",
+      "result_team_2": "",
+      "scores": [
+        {
+          "score_team_1": "1",
+          "score_team_2": "1",
+          "player": {
+            "name": "Juan Carlos",
+            "id": 1,
+            "image": "1JC"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Nelson Alfonso",
+            "id": 2,
+            "image": "2NA"
+          }
+        },
+        {
+          "score_team_1": "",
+          "score_team_2": "",
+          "player": {
+            "name": "Luz Marina",
+            "id": 3,
+            "image": "3LM"
+          }
+        },
+        {
+          "score_team_1": "0",
+          "score_team_2": "0",
+          "player": {
+            "name": "Isabel Cristina",
+            "id": 4,
+            "image": "4IC"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "1",
+          "player": {
+            "name": "Sandra Milena",
+            "id": 5,
+            "image": "5SM"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "2",
+          "player": {
+            "name": "Luis Fernando",
+            "id": 6,
+            "image": "6LF"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Diego Alejandro",
+            "id": 7,
+            "image": "7DA"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Natalia",
+            "id": 8,
+            "image": "8N"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "1",
+          "player": {
+            "name": "Ivan Mauricio",
+            "id": 9,
+            "image": "9IM"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Geraldine",
+            "id": 10,
+            "image": "10G"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "2",
+          "player": {
+            "name": "Karol Nicol",
+            "id": 11,
+            "image": "11KN"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Juan David",
+            "id": 12,
+            "image": "12JD"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "1",
+          "player": {
+            "name": "Andrés Felipe",
+            "id": 13,
+            "image": "13AF"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "3",
+          "player": {
+            "name": "Dilan Santiago",
+            "id": 14,
+            "image": "14DS"
+          }
+        },
+        {
+          "score_team_1": "0",
+          "score_team_2": "1",
+          "player": {
+            "name": "Mariana",
+            "id": 15,
+            "image": "15M"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "group": "GRUPO D",
+      "date": "2022-11-22T19:00:00.000Z",
+      "team_1": {
+        "id": 16,
+        "name": "FRANCIA"
+      },
+      "team_2": {
+        "id": 4,
+        "name": "AUSTRALIA"
+      },
+      "result_team_1": "",
+      "result_team_2": "",
+      "scores": [
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Juan Carlos",
+            "id": 1,
+            "image": "1JC"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Nelson Alfonso",
+            "id": 2,
+            "image": "2NA"
+          }
+        },
+        {
+          "score_team_1": "",
+          "score_team_2": "",
+          "player": {
+            "name": "Luz Marina",
+            "id": 3,
+            "image": "3LM"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "0",
+          "player": {
+            "name": "Isabel Cristina",
+            "id": 4,
+            "image": "4IC"
+          }
+        },
+        {
+          "score_team_1": "1",
+          "score_team_2": "2",
+          "player": {
+            "name": "Sandra Milena",
+            "id": 5,
+            "image": "5SM"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Luis Fernando",
+            "id": 6,
+            "image": "6LF"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Diego Alejandro",
+            "id": 7,
+            "image": "7DA"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Natalia",
+            "id": 8,
+            "image": "8N"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Ivan Mauricio",
+            "id": 9,
+            "image": "9IM"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "0",
+          "player": {
+            "name": "Geraldine",
+            "id": 10,
+            "image": "10G"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "2",
+          "player": {
+            "name": "Karol Nicol",
+            "id": 11,
+            "image": "11KN"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Juan David",
+            "id": 12,
+            "image": "12JD"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "1",
+          "player": {
+            "name": "Andrés Felipe",
+            "id": 13,
+            "image": "13AF"
+          }
+        },
+        {
+          "score_team_1": "2",
+          "score_team_2": "1",
+          "player": {
+            "name": "Dilan Santiago",
+            "id": 14,
+            "image": "14DS"
+          }
+        },
+        {
+          "score_team_1": "3",
+          "score_team_2": "0",
+          "player": {
+            "name": "Mariana",
+            "id": 15,
+            "image": "15M"
+          }
+        }
+      ]
+    }
+  ]
+}

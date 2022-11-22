@@ -1,0 +1,21 @@
+<table mat-table [dataSource]="scores" class="mat-elevation-z8" *ngIf="datasource">
+
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Jugador</th>
+    <td mat-cell *matCellDef="let element"> {{element.player.name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="score_team_1">
+    <th mat-header-cell *matHeaderCellDef>{{datasource.team_1.name}}</th>
+    <td mat-cell *matCellDef="let element"> {{element.score_team_1}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="score_team_2">
+    <th mat-header-cell *matHeaderCellDef>{{datasource.team_2.name}}</th>
+    <td mat-cell *matCellDef="let element"> {{element.score_team_2}} </td>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="['name', 'score_team_1', 'score_team_2']" class="table-header"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['name', 'score_team_1', 'score_team_2']" class="table-row"></tr>
+</table>

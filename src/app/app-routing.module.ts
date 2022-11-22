@@ -20,6 +20,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/matches/matches.module').then(m => m.MatchesModule)
   },
   {
+    path: 'daily',
+    loadChildren: () => import('./pages/daily-scores/daily-scores.module').then(m => m.DailyScoresModule)
+  },
+  {
     path: '404',
     loadChildren: () => import('./pages/not-found/not-found.module').then(m => m.NotFoundModule)
   },

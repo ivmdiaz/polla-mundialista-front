@@ -15,7 +15,9 @@ export class RankingService extends RequestBackendService {
 
   public getRanking(): Observable<RankingPlayer[]> {
     return super.getServiceRanking().pipe(
-      map(results => results.data.sort((a, b) => b.points - a.points))
+      map(results => results.data
+        .filter(item => item.player.id ? true : false)
+        .sort((a, b) => b.points - a.points))
     );
   }
 

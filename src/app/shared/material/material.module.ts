@@ -6,6 +6,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 const MODULES = [
@@ -15,7 +17,9 @@ const MODULES = [
   MatFormFieldModule,
   MatNativeDateModule,
   MatInputModule,
-  MatButtonModule
+  MatButtonModule,
+  MatTableModule,
+  MatExpansionModule
 ]
 
 @NgModule({
